@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D0D12"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="BIG LANCHER"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:text="Minecraft for Android"
+            android:textColor="#8A8AA0"
+            android:textSize="14sp" />
+
+        <Button android:id="@+id/btn_launch" style="@style/BigBtnPrimary" android:text="Launch game" />
+        <Button android:id="@+id/btn_mods" style="@style/BigBtn" android:text="Install mod" />
+        <Button android:id="@+id/btn_files" style="@style/BigBtn" android:text="Open files" />
+        <Button android:id="@+id/btn_controls" style="@style/BigBtn" android:text="Add controls" />
+        <Button android:id="@+id/btn_settings" style="@style/BigBtn" android:text="Settings" />
+        <Button android:id="@+id/btn_credits" style="@style/BigBtn" android:text="Credits" />
+    </LinearLayout>
+</ScrollView>
